@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'YourFont'; /* Define the font family name */
+    src: url('fonts/AcMinecraft-Regular.ttf') format('truetype'); /* Path to your TTF font file */
+}
+
+body {
+    font-family: 'Ac Minecraft Regular', sans-serif; /* Use YourFont font for the entire page */
+}
+
+.chat-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.chat-box {
+    border: 1px solid #ccc;
+    height: 300px;
+    overflow-y: scroll;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+input[type="text"], button {
+    font-family: 'Ac Minecraft Regular', sans-serif; /* Use YourFont font for input fields and buttons */
+    font-size: 16px; /* Example font size */
+    padding: 5px;
+    margin-bottom: 10px;
+}
